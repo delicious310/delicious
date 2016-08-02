@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+	font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    background: #f3f3f3;
+ }
+ body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+
+}
+
+ /*******************header开始*********************/
+#header{
+ 	min-height: 200px;
+ 	background: url(../img/bg2.jpg) no-repeat 0px 0px;
+ }
+ 
+ 
+ #header .nav-icon{
+ 	width: 52px;
+    height: 52px;
+background:  url(../img/nav-icon.png) no-repeat;
+position: absolute;
+top: 64px;
+right: 86px;
+cursor: pointer;
+ }
+ #header .nav-menu-box{
+    height: 192px;
+    width: 100%;
+    position: absolute;
+    top: -192px;
+   left: 0;
+
+ }
+ #header .nav-menu-bg{
+    height: 192px;
+    background: rgb(82,87,89);
+    opacity: 0.39;
+    filter: alpha(opacity=39);
+ }
+ #header .nav-menu{
+width: 694px;
+height: 32px;
+position: absolute;
+left: 50%;
+margin-left: -347px;
+top: 50%;
+margin-top: -16px;
+ }
+ #header .nav-menu li{
+    float: left;
+ }
+ #header .nav-menu li a{
+    display: block;
+    margin: 8px 28px;
+    color: #fff;
+ }
+ #header .nav-close-icon{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url(../img/close2.png) no-repeat;
+    position: absolute;
+    /*right: 136px;
+    top: 50%;
+    margin-top: -18px;*/
+    top: 4.5em;
+    right: 6em;
+    cursor: pointer;
+ }
+ /*******************header结束*********************/
+ .single {
+    padding: 5em 0;
+}
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-8 {
+    width: 66.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contant-form {
+    display: block;
+    margin-top: 0em;
+}
+p.comment-form-author {
+    margin-bottom: 2em;
+}
+.single p {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    margin: 1em 0;
+}
+.contact-form label {
+    display: block;
+    font-size: 0.8125em;
+    color: #000;
+    text-transform: uppercase;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+ /****************************************/
+ /****************************************/
